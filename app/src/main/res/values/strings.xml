@@ -83,6 +83,7 @@
     <string name="sixty_days">60 days</string>
     <string name="ninety_days">90 days</string>
     <string name="six_months">6 months</string>
+    <string name="password" />
 
     <string-array name="periods">
         <item>all transactions</item>
