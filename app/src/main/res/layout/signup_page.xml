@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="-16dp">
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_transaction_title"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="First Name">

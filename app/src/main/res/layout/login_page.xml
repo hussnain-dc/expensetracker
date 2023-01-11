@@ -38,7 +38,6 @@
             android:layout_marginTop="12dp"
             android:hint="@string/password"
             app:prefixText="$"
-
             >
 
             <com.google.android.material.textfield.TextInputEditText
@@ -47,7 +46,6 @@
                 android:layout_height="wrap_content"
                 android:hint="Pasword"
                 android:inputType="numberDecimal"
-
                 android:maxLines="1" />
 
         </com.google.android.material.textfield.TextInputLayout>

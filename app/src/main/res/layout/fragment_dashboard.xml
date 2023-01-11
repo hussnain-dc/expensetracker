@@ -77,13 +77,12 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.core.widget.NestedScrollView>
+
 <ViewStub
     android:id="@+id/empty_data_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:layout="@layout/welcome_page"
-    android:visibility="gone"
     />
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_add_transaction"
@@ -92,11 +91,8 @@
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="14dp"
         android:layout_margin="10dp"
-
         android:backgroundTint="@color/blue_500"
-        android:contentDescription="@string/add_new_transaction"
         android:src="@drawable/ic_add"
-        app:borderWidth="0dp"
         app:tint="@color/btn_text"
         />
 

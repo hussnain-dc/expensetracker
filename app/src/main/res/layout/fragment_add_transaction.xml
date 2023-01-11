@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ui.AddTransactionFragment">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout
         android:id="@+id/ll_input_fields"
@@ -33,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:hint="@string/amount"
-            app:prefixText="$"
+            app:prefixText="Rs"
 
             >
 
@@ -125,7 +124,6 @@
             android:textColor="@color/btn_text"
             app:layout_constraintTop_toBottomOf="@+id/input_fields"
             tools:layout_editor_absoluteX="20dp" />
-
     </LinearLayout>
 
 
